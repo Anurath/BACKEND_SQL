@@ -1,0 +1,20 @@
+table,tr,th,td{
+    border:2px solid black;
+}
+
+.username{
+    box-shadow:3px 3px 3px rgb(199, 25, 54);
+}
+.post_content{
+    box-shadow: 3px 3px 3px rgb(121, 121, 19);
+}
+.password{
+    box-shadow: 3px 3px 3px darkgray;
+}
+
+.username:hover{
+    transform: scale(1.1);
+}
+.post_content:hover{
+    transform: scale(1.1);
+}

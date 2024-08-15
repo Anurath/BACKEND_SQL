@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <h1>All profiles are here</h1>
+    <% for(let post of result){ %>
+        <h2>Id:<%= post.id %></h2>
+        <h3>Name:<%= post.name %></h3>
+        <% } %>
+        <br>
+        <br>
+</body>
+</html>
